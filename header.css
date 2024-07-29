@@ -1,0 +1,77 @@
+header {
+    position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #3498db;
+    background-size: 100px 1000px; /* Adjust the size of the hexagons */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px;
+    background-size: 100px 1000px; /* Adjust the size of the hexagons */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #2980b9;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.title {
+    font-size: 2.5em;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    z-index: 1;
+}
+
+.links {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 20px; /* Adds space between links */
+}
+
+.links a {
+    font-size: 1.1em;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #3498db;
+}
+
+.social-links {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 20px; /* Adds space between social icons */
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #6cc644;
+}
+  .social-icon {
+    vertical-align: middle;
+}

@@ -205,5 +205,9 @@ span:nth-child(4)
 #see-what-I-can-do:hover {
     color: #FFFFFF;
     font-size: 1.8rem;
-     width: 25%; 
+     width: 25%;
+}
+.check-me-out{
+  color: #ffffff;
+    text-decoration: none;
 }
